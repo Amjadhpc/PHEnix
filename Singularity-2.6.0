@@ -8,11 +8,11 @@ MirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearc
 Include : yum tar
 
 %help
-This is singularity 2.6.0  image for Phenix pipeline build for centos 7 system.
+This is singularity 2.6.0  image for Phenix pipeline build for centos 7 system. Checking again
 
 %runscript
 
-    exec echo "The runscript is the containers default runtime command!"
+    #exec echo "The runscript is the containers default runtime command!"
 
 
 %setup 
