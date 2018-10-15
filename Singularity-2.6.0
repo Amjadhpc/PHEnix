@@ -13,6 +13,7 @@ This is singularity 2.6.0  image for Phenix pipeline build for centos 7 system. 
 %runscript
 
     #exec echo "The runscript is the containers default runtime command!"
+     phenix.py --help
 
 
 %setup 
